@@ -1,3 +1,7 @@
+// © 2025 Matheus Soares da Silva
+// Licenciado sob CC BY-NC-SA 4.0
+// Proibida a reprodução comercial ou redistribuição não autorizada.
+
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, QueryList, ViewChildren } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
