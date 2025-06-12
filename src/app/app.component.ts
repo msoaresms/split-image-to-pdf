@@ -118,6 +118,9 @@ export class AppComponent {
       const y = (pdf.internal.pageSize.getHeight() - renderHeight) / 2;
 
       pdf.addImage(imgData, 'PNG', x, y, renderWidth, renderHeight);
+      pdf.setTextColor(150); // cor cinza
+      pdf.setFontSize(10);
+      pdf.text('© 2025 Matheus Soares da Silva - Uso pessoal', margin, y + renderHeight + 8);
     })
 
     pdf.save('split-image.pdf');
